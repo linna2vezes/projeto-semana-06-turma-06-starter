@@ -1,4 +1,4 @@
-/* BEM CSS 
+/* BEM CSS
 Block
 Element
 Modifier
@@ -160,6 +160,58 @@ button {
 }
 
 
+.woman {
+  padding: 60px 0px;
+}
+
+.woman .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+}
+
+.woman .image_container{
+  width: 600px;
+}
+
+.woman .text {
+  width: 40%;
+  margin-left: auto;
+
+}
+.woman .woman-title {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 500;
+  color: #091133;
+   }
+
+.woman .woman-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6f7cb2;
+  margin-bottom: 20px;
+  }
+
+  
+ .woman .woman-button__middle{
+  border: 2px solid #091133;
+   background-color: #091133;
+   Height : 32px;
+   border-radius: 2px;
+  font-weight: 500;
+  width: 150px;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0 0;
+  color:#ffffff
+  }
+
+ 
+
 .pricing {
   background-image: url("./images/rectangle.png");
   margin: auto;
@@ -288,3 +340,4 @@ margin-bottom: 50px;
      width: 100%;
      padding-bottom: 40px;
     }
+
