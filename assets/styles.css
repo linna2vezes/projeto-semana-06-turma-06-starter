@@ -158,3 +158,133 @@ button {
   color: #091133;
   background-color: transparent;
 }
+
+
+.pricing {
+  background-image: url("./images/rectangle.png");
+  margin: auto;
+  align-items: center;
+  background-size: cover;
+  padding-bottom: 172px;
+}
+
+.pricing .pricing-title{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color:#091133;
+  text-align: center;
+  padding-top: 238px;
+  gap: 16px;
+}
+
+.pricing .pricing-description {
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 26px;
+ color: #6f7cb2; 
+ text-align: center;
+ width: 600px;
+ height: 78px;
+ margin: auto;
+}
+
+.pricing .pricing-price{ 
+font-weight: 500;
+font-size: 50px;
+line-height: 66px;
+color: #222F65;
+text-align: center;
+margin: 0;
+padding: 0;
+margin-top: 36px;
+}
+
+.pricing .pricing-price-title{
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #37447E;
+text-align: center;
+margin: 0;
+margin-bottom: 50px;
+}
+
+.pricing .pricing-price-body{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color:#5D6970;
+  margin: auto;
+}
+
+.pricing .button__label{
+  width: 189px;
+  height: 32px;
+  margin: auto;
+  padding-bottom: 805;
+}
+
+.footer{
+  background-color: #E7ECFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 1024px;
+}
+
+  .footer .container {
+    padding-top: 30px;
+    padding-bottom: 0;
+    display: flex;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+.footer .footer-button{
+  border: 2px solid #091133;
+   background-color: #091133;
+   Height : 20px;
+   border-radius: 2px;
+  font-weight: 500;
+  width: 109px;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0 0;
+  color:#ffffff;
+  align-items: center;
+  }
+
+  
+
+  .nav-bar .containerfooter {
+    display: flex;
+    height: 30px;
+  }
+
+
+
+  .footer .registred {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #939EA4;
+     }
+
+    .footer .line {
+    background-color: #939EA4;
+    height: 1px;
+    display: flex;
+    position: absolute;
+    width:1110px;
+    padding: 0 0;
+    }
+
+    .nav-bar-footer {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     padding-bottom: 40px;
+    }
