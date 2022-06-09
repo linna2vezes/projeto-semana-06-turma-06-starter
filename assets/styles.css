@@ -29,7 +29,7 @@ button {
   background-position: right top;
   display: flex;
   justify-content: center;
-  background-size: 1024px;
+  background-size: auto;
   flex-direction: column;
 }
 
@@ -216,7 +216,7 @@ button {
   background-image: url("./images/rectangle.png");
   margin: auto;
   align-items: center;
-  background-size: cover;
+  background-size: auto;
   padding-bottom: 172px;
 }
 
